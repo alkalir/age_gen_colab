@@ -1,0 +1,23 @@
+[INFO] Namespace(batchsize=1, inputs_shape=None, layout='NHWC', model_files=['./build/quantized_results/AgeGen/Age/quantized_model.h5'], model_type='tensorflow2', named_inputs_shape=None, out_filename='/tmp/Age_org.xmodel', proto=None)
+[INFO] tensorflow2 model: /workspace/FractalApp/build/quantized_results/AgeGen/Age/quantized_model.h5
+[INFO] keras version: 2.6.0
+[INFO] Tensorflow Keras model type: functional
+[INFO] parse raw model     :  0%|          | 0/41 [00:00<?, ?it/s]                           [INFO] parse raw model     :100%|██████████| 41/41 [00:00<00:00, 9255.46it/s]                
+[INFO] infer shape (NHWC)  :  0%|          | 0/71 [00:00<?, ?it/s]                           [INFO] infer shape (NHWC)  :  4%|▍         | 3/71 [00:00<00:02, 27.96it/s]                   [INFO] infer shape (NHWC)  : 10%|▉         | 7/71 [00:00<00:02, 26.03it/s]                   [INFO] infer shape (NHWC)  : 17%|█▋        | 12/71 [00:00<00:01, 33.83it/s]                  [INFO] infer shape (NHWC)  : 56%|█████▋    | 40/71 [00:00<00:00, 118.14it/s]                 [INFO] infer shape (NHWC)  :100%|██████████| 71/71 [00:00<00:00, 133.86it/s]                 
+[INFO] perform level-0 opt :  0%|          | 0/2 [00:00<?, ?it/s]                            [INFO] perform level-0 opt :100%|██████████| 2/2 [00:00<00:00, 111.72it/s]                   
+[INFO] perform level-1 opt :  0%|          | 0/2 [00:00<?, ?it/s]                            [INFO] perform level-1 opt :100%|██████████| 2/2 [00:00<00:00, 217.27it/s]                   
+[INFO] generate xmodel     :  0%|          | 0/71 [00:00<?, ?it/s]                           [INFO] generate xmodel     :  3%|▎         | 2/71 [00:07<04:11,  3.65s/it]                   [INFO] generate xmodel     :  4%|▍         | 3/71 [00:08<03:03,  2.70s/it]                   [INFO] generate xmodel     :  6%|▌         | 4/71 [00:10<02:27,  2.20s/it]                   [INFO] generate xmodel     : 62%|██████▏   | 44/71 [00:10<00:02,  9.85it/s]                  [INFO] generate xmodel     :100%|██████████| 71/71 [00:10<00:00,  6.93it/s]                  
+[INFO] dump xmodel ...[INFO] dump xmodel: /tmp/Age_org.xmodel
+[UNILOG][INFO] Compile mode: dpu
+[UNILOG][INFO] Debug mode: function
+[UNILOG][INFO] Target architecture: DPUCZDX8G_ISA0_B4096_MAX_BG2
+[UNILOG][INFO] Graph name: model, with op num: 131
+[UNILOG][INFO] Begin to compile...
+[UNILOG][INFO] Total device subgraph number 3, DPU subgraph number 1
+[UNILOG][INFO] Compile done.
+[UNILOG][INFO] The meta json is saved to "/workspace/FractalApp/./build/compile/AgeGen/Age/meta.json"
+[UNILOG][INFO] The compiled xmodel is saved to "/workspace/FractalApp/./build/compile/AgeGen/Age/Age.xmodel"
+[UNILOG][INFO] The compiled xmodel's md5sum is ea385603dba89053842735ac138b4b3c, and has been saved to "/workspace/FractalApp/./build/compile/AgeGen/Age/md5sum.txt"
+**************************************************
+* VITIS_AI Compilation - Xilinx Inc.
+**************************************************

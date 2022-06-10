@@ -1,0 +1,86 @@
+2022-06-06 00:57:05.433768: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/xilinx/xrt/lib:/usr/lib:/usr/lib/x86_64-linux-gnu:/usr/local/lib:/opt/vitis_ai/conda/envs/vitis-ai-tensorflow/lib
+2022-06-06 00:57:05.433794: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-06-06 00:57:07.809466: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/xilinx/xrt/lib:/usr/lib:/usr/lib/x86_64-linux-gnu:/usr/local/lib:/opt/vitis_ai/conda/envs/vitis-ai-tensorflow/lib
+2022-06-06 00:57:07.809513: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-06-06 00:57:07.809534: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (chiara-VirtualBox): /proc/driver/nvidia/version does not exist
+2022-06-06 00:57:07.809834: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-06-06 01:06:34.860289: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+Found 12 validated image filenames.
+[VAI INFO] Start Dumping...
+[VAI INFO] Dumping weights/biases...
+[VAI INFO] Dumping (1/34): quant_block1_conv1/kernel
+[VAI INFO] Dumping (2/34): quant_block1_conv1/bias
+[VAI INFO] Dumping (3/34): quant_block1_conv2/kernel
+[VAI INFO] Dumping (4/34): quant_block1_conv2/bias
+[VAI INFO] Dumping (5/34): quant_block2_conv1/kernel
+[VAI INFO] Dumping (6/34): quant_block2_conv1/bias
+[VAI INFO] Dumping (7/34): quant_block2_conv2/kernel
+[VAI INFO] Dumping (8/34): quant_block2_conv2/bias
+[VAI INFO] Dumping (9/34): quant_block3_conv1/kernel
+[VAI INFO] Dumping (10/34): quant_block3_conv1/bias
+[VAI INFO] Dumping (11/34): quant_block3_conv2/kernel
+[VAI INFO] Dumping (12/34): quant_block3_conv2/bias
+[VAI INFO] Dumping (13/34): quant_block3_conv3/kernel
+[VAI INFO] Dumping (14/34): quant_block3_conv3/bias
+[VAI INFO] Dumping (15/34): quant_block4_conv1/kernel
+[VAI INFO] Dumping (16/34): quant_block4_conv1/bias
+[VAI INFO] Dumping (17/34): quant_block4_conv2/kernel
+[VAI INFO] Dumping (18/34): quant_block4_conv2/bias
+[VAI INFO] Dumping (19/34): quant_block4_conv3/kernel
+[VAI INFO] Dumping (20/34): quant_block4_conv3/bias
+[VAI INFO] Dumping (21/34): quant_block5_conv1/kernel
+[VAI INFO] Dumping (22/34): quant_block5_conv1/bias
+[VAI INFO] Dumping (23/34): quant_block5_conv2/kernel
+[VAI INFO] Dumping (24/34): quant_block5_conv2/bias
+[VAI INFO] Dumping (25/34): quant_block5_conv3/kernel
+[VAI INFO] Dumping (26/34): quant_block5_conv3/bias
+[VAI INFO] Dumping (27/34): quant_dense/kernel
+[VAI INFO] Dumping (28/34): quant_dense/bias
+[VAI INFO] Dumping (29/34): quant_dense_1/kernel
+[VAI INFO] Dumping (30/34): quant_dense_1/bias
+[VAI INFO] Dumping (31/34): quant_dense_2/kernel
+[VAI INFO] Dumping (32/34): quant_dense_2/bias
+[VAI INFO] Dumping (33/34): quant_dense_3/kernel
+[VAI INFO] Dumping (34/34): quant_dense_3/bias
+[VAI INFO] Dumping activations...
+[VAI INFO] Dumping (1/40): quant_input_1
+[VAI INFO] Dumping (2/40): quant_block1_conv1
+[VAI INFO] Dumping (3/40): quant_block1_conv1_relu
+[VAI INFO] Dumping (4/40): quant_block1_conv2
+[VAI INFO] Dumping (5/40): quant_block1_conv2_relu
+[VAI INFO] Dumping (6/40): quant_block1_pool
+[VAI INFO] Dumping (7/40): quant_block2_conv1
+[VAI INFO] Dumping (8/40): quant_block2_conv1_relu
+[VAI INFO] Dumping (9/40): quant_block2_conv2
+[VAI INFO] Dumping (10/40): quant_block2_conv2_relu
+[VAI INFO] Dumping (11/40): quant_block2_pool
+[VAI INFO] Dumping (12/40): quant_block3_conv1
+[VAI INFO] Dumping (13/40): quant_block3_conv1_relu
+[VAI INFO] Dumping (14/40): quant_block3_conv2
+[VAI INFO] Dumping (15/40): quant_block3_conv2_relu
+[VAI INFO] Dumping (16/40): quant_block3_conv3
+[VAI INFO] Dumping (17/40): quant_block3_conv3_relu
+[VAI INFO] Dumping (18/40): quant_block3_pool
+[VAI INFO] Dumping (19/40): quant_block4_conv1
+[VAI INFO] Dumping (20/40): quant_block4_conv1_relu
+[VAI INFO] Dumping (21/40): quant_block4_conv2
+[VAI INFO] Dumping (22/40): quant_block4_conv2_relu
+[VAI INFO] Dumping (23/40): quant_block4_conv3
+[VAI INFO] Dumping (24/40): quant_block4_conv3_relu
+[VAI INFO] Dumping (25/40): quant_block4_pool
+[VAI INFO] Dumping (26/40): quant_block5_conv1
+[VAI INFO] Dumping (27/40): quant_block5_conv1_relu
+[VAI INFO] Dumping (28/40): quant_block5_conv2
+[VAI INFO] Dumping (29/40): quant_block5_conv2_relu
+[VAI INFO] Dumping (30/40): quant_block5_conv3
+[VAI INFO] Dumping (31/40): quant_block5_conv3_relu
+[VAI INFO] Dumping (32/40): quant_block5_pool
+[VAI INFO] Dumping (33/40): quant_flatten
+[VAI INFO] Dumping (34/40): quant_dense
+[VAI INFO] Dumping (35/40): quant_dense_relu
+[VAI INFO] Dumping (36/40): quant_dense_1
+[VAI INFO] Dumping (37/40): quant_dense_1_relu
+[VAI INFO] Dumping (38/40): quant_dense_2
+[VAI INFO] Dumping (39/40): quant_dense_2_relu
+[VAI INFO] Dumping (40/40): quant_dense_3
